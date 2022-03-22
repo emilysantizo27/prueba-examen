@@ -1,0 +1,195 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Movie Night</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+	
+	<div id="app">
+		<div class="view view-main view-init">
+
+			<!-- Menú Lateral -->
+			<section class="panel panel-left panel-cover">
+			
+				<div class="panel-info">
+					<img src="img/logo appp.png" alt="logo" class="img-fluid">
+					
+				</div>
+				
+				<div class="list">
+				  <ul>
+					<li>
+					  <a href="/inicio/" class="item-content panel-close">
+						<div class="item-media"><span class="material-icons">movie_filter</span></div>
+						<div class="item-inner">
+						  <div class="item-title">Inicio</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="promos" class="link"/>
+						<a href="promos" class="item-content panel-close">
+						<div class="item-media"><span class="material-icons">discount</span></div>
+						<div class="item-inner">
+						  <div class="item-title">Promociones</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="categorias" class="link"/>
+						<a href="categorias" class="item-content panel-close">
+						<div class="item-media"><span class="material-icons">category</span></div>
+						<div class="item-inner">
+						  <div class="item-title">Categorías</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					 <a href="mispelis" class="link"/>
+						<a href="/mispelis/" class="item-content panel-close">
+						<div class="item-media"><span class="material-icons">local_movies</span></div>
+						<div class="item-inner">
+						  <div class="item-title">Mis Películas</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					 <a href="perfil" class="link"/>
+						<a href="/perfil/" class="item-content panel-close">
+						<div class="item-media"><span class="material-icons">account_circle</span></div>
+						<div class="item-inner">
+						  <div class="item-title">Perfil</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="salir" class="item-content panel-close">
+						<div class="item-media"><span class="material-icons">logout</span></div>
+						<div class="item-inner">
+						  <div class="item-title">Salir</div>
+						</div>
+					  </a>
+					</li>
+				  </ul>
+				</div>
+				
+			</section>
+			
+			
+			<section data-name="info" class="page">
+
+				<!-- Top Navbar -->
+				<nav class="navbar">
+				<div class="navbar-bg"></div>
+				<div class="navbar-inner">
+					<div class="left">
+						<a href="#" class="link"><span class="material-icons">search</span>
+						</a>
+					</div>
+					<div class="title">Movie Night</div>
+					<div class="right">
+						<a href="#" class="link panel-open" data-panel=".panel-left"><span class="material-icons">menu</span>
+						</a>
+					</div>
+				</div>
+				</nav>
+
+
+		<section class="page-content">
+	
+		
+		<div class="swiper-container swiper-init" data-slides-per-view="1" data-pagination='{"el": ".swiper-pagination"}'>
+            <div class="swiper-wrapper">
+
+                <article class="swiper-slide text-align-center">
+                    <img src="img/m5.png" class="img-fluid" alt="flyknit" width="#">
+                </article>
+				
+
+			</div><!-- /swiper-wrapper -->
+			<div class="swiper-pagination"></div>
+        </div><!-- /swiper-container -->
+	
+		
+		
+		<article class="block">
+		
+			<div class="row">
+                <article class="col">
+                    <h2 class="block-title block-title-medium no-margin">Moonlight</h2>
+                </article>
+
+                <article class="col text-align-right precio">
+                    HNL. 75.00
+                </article>
+            </div>
+			
+			<p class="review">1254 Reviews <span class="material-icons">star</span> 4.8</p>
+			<p class="review"><b>Drama</b></p>
+			<p class="text-info">Chiron es un chico afroamericano que crece en uno de los barrios más conflictivos y violentos de Miami. Desde su infancia, pasando por la adolescencia, hasta llegar a su etapa adulta, Chiron lucha por encontrar su lugar en el mundo, en un ambiente donde la violencia no da tregua. A medida que pasan los años, el joven vive una constante e intensa lucha interna, para descubrirse a sí mismo. </p>
+		
+			<hr>
+		
+		</article>
+		
+		<article class="block">
+			<a href="/confirm/" class="button button-fill">
+				<span class="material-icons">add_shopping_cart</span> Add To Cart
+			</a>
+		</article>
+		
+	</section>
+
+
+
+</section>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			<!-- Bottom Navbar -->
+            <nav class="toolbar toolbar-bottom">
+              <div class="toolbar-inner">
+                <a href="#" class="link">
+                  <span class="material-icons">home</span>					 
+                </a>
+                <a href="#" class="link">
+                  <span class="material-icons">favorite_border</span>					  
+                </a>
+                <a href="#" class="link">
+                  <span class="material-icons">notifications_none</span>					  
+                </a>
+                <a href="#" class="link">
+                  <span class="material-icons">shopping_cart</span>					  
+                </a>
+                <a href="#" class="link">
+                  <span class="material-icons">person_outline</span>					  
+                </a>
+              </div>
+            </nav>
+			
+		</div><!-- /view-->
+	</div><!-- /app -->
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+</body>
+</html>

@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;500&display=swap');
+:root{
+	--f7-theme-color:#5079FE;
+	--f7-navbar-bg-color: #5079FE; /*navbar*/
+	--f7-navbar-text-color:#fff;
+	--f7-bars-bg-color:#fff;/*toolbar*/
+	--f7-block-margin-vertical:20px;
+	--f7-card-footer-border-color:transparent; 
+	--color-azul-claro:#BED5DD;
+	--color-azul:#97D4D5;
+	--color-gris:#7F7F7F;
+	--color-rosado:#000;
+	--color-cafe:#794D0C;
+}
+body{
+	font-family: 'fredoka-one'sans-serif;
+	color: var(--color-gris);
+	background-color: var(--color-azul);
+}
+
+.block-title{
+	color: var(--color-gris);
+	text-align: left;
+}
+
+.navbar a{
+	color: #fff !important;
+}
+nav.toolbar a,
+nav.tabbar-label{
+	color: var(--color-rosado);
+}
+.navbar-inner{
+	background-color: var(--color-rosado)
+}
+.panel-left{
+	background-color: #FFFFFF;
+}
+.panel-left .list{
+	margin-top: 0;
+}
+.panel-left .list ul{
+	background-color: transparent;
+	font-size: 13px;
+}
+.panel-left .list a{
+	color: var(--color-negro);
+}
+.panel-info{
+	background-color: #fff;
+	color: var(--color-gris);
+	text-align: center;
+	padding: 20px 0;
+}
+.panel-info span{
+	font-size: 40px;
+}
+.bg-mascota{
+	background-image: url("../img/10691555m.jpeg");
+	background-size: cover;
+	padding-left: 20%;
+	height: 150px;
+}
+.bg-masc2{
+	background-image: url("../img/1636307686_778477_1636307902_noticia_normal_recorte1.jpeg");
+	background-size: cover;
+	padding-left: 20%;
+	height: 150px;
+}
+.bg-masc3{
+	background-image: url("../img/4KGIM5VTZNFCHCGN2ZFIKLMSPU.jpeg");
+	background-size: cover;
+	padding-left: 20%;
+	height: 150px;
+}
+.bg-masc4{
+	background-image: url("../img/gato-dia-internacional.png");
+	background-size: cover;
+	padding-left: 20%;
+	height: 150px;
+}
+
+
+.block-title{
+	text-align: center;
+	  
+}
+.card-content{
+	align-content: center;
+	position: absolute;
+	padding: 5px;
+	width: 100%;
+	border-radius: 40%;
+}
+img{
+	align-content: center;
+	padding-right: 20px;
+	width: 100%;
+}
+
+#estreno{
+	margin-top: 50%;
+}
+#infantiles{
+	margin-top: 50%;
+}
+
+.login-screen .page{
+	background-color:  var(--color-azul);
+}
+
+.login-screen .page-content{
+	padding: 10px;
+	background-color: transparent;
+	margin-top: 10% !important;
+}
+.login-screen form{
+	background-color: #fff;
+	border-radius: 10px;
+	height: 500px;
+	padding: 30px 15px;
+	box-shadow: 0px 0px 15px 0px #7C899F;
+}
+.login-screen .login-screen-title{
+	color: #fff;
+	font-size: 34px;
+}
+
+.page{
+	background-color: #fff;
+}
+
+.form{
+	height: 300px;
+	border-radius: 60px;
+}
+
+.button{
+	background-color:  var(--color-azul);
+}
